@@ -21,7 +21,7 @@ function Banner() {
     },[])
 
     const handleSlideChange = id => {
-        const newMovie = movie.map(movie=>{
+        const newMovies = movies.map(movie=>{
           movie.active = false;
           if(movie._id===id){
             movie.active = true;
