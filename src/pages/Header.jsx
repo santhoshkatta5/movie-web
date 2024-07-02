@@ -1,18 +1,18 @@
 import React from "react";
 import './header.css';
-import NavListitem from "../components/NavListitem";
+import NavListItem from "../components/NavListItem";
 import Search from "../components/Search";
 import navListData from "../data/navListData";
 import Button from "../components/Button";
 
-function Header() {
+function Header({scroll}) {
   return (
    <header>
     <a href="/" className="logo">Cinema</a>
     <ul className="nav">
         {
             navListData.map(nav => (
-                <NavListitem key={nav._id} nav={nav} />
+                <NavListItem key={nav._id} nav={nav} />
             ))
         }
     </ul>

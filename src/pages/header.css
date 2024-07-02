@@ -9,6 +9,7 @@ header {
     padding: 30px 100px;
     transition: 0.5s;
     z-index: 10000;
+    /* background-color: black; */
 }
 header.scrolled {
     background: rgba(0, 0, 0, 0.6);

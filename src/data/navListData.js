@@ -7,8 +7,8 @@ const navListData = [
   },
   {
     _id: 1,
-    link: "#shedule",
-    name: `shedule`,
+    link: "#schedule",
+    name: `schedule`,
     active: false,
   },
   {
@@ -23,6 +23,12 @@ const navListData = [
     name: `blog`,
     active: false,
   },
+  // {
+  //   _id: 5,
+  //   link: "#footer",
+  //   name: `footer`,
+  //   active: false,
+  // },
 ];
 
 export default navListData;

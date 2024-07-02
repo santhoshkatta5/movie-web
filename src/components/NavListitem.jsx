@@ -1,10 +1,10 @@
 import React from "react";
-import './navListitem.css';
+import './navListItem.css';
 
-function NavListitem({nav}) {
+function NavListItem({nav}) {
   return (
 <li><a href={nav.link}>{nav.name}</a></li>
   );
 }
 
-export default NavListitem;
+export default NavListItem;
