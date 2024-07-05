@@ -18,9 +18,9 @@
     overflow: hidden;
 }
 
-/* .img-fluid {
-    height: 0px;
-} */
+#img-mg {
+    width: 370px;
+}
 
 .blog .post-category {
     font-size: 2rem;

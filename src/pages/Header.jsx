@@ -5,7 +5,8 @@ import Search from "../components/Search";
 import navListData from "../data/navListData";
 import Button from "../components/Button";
 
-function Header({scroll}) {
+function Header({ searchValue, setSearchValue}) {
+
   return (
    <header>
     <a href="/" className="logo">Cinema</a>
@@ -16,7 +17,7 @@ function Header({scroll}) {
             ))
         }
     </ul>
-    <Search/>
+    {/* <Search searchValue={searchValue} setSearchValue={setSearchValue}/> */}
     <Button icon={<ion-icon name="log-in-outline"></ion-icon>} name='Sign in' />
    </header>
   );

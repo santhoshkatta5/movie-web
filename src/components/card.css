@@ -6,10 +6,10 @@ section .movie-card {
     box-shadow: 0 0 16px rgba(255, 255, 255, 0.5);
     transition: 0.5s;
 }
-#img-fluid {
+#img-fluid{
     /* border: 500px; */
     height: 400px;
-    width: 270px;
+    width: 235px;
     /* display: flex; */
     /* justify-content: center; */
 }
@@ -31,7 +31,7 @@ section .movie-card::before {
 section .movie-card p {
     color: #dddddd;
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 400px;
     text-align: center;
     padding: 10px 0;
 }
